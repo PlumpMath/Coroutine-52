@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public partial class PlayerFSM : MonoBehaviour {
@@ -23,7 +23,7 @@ public partial class PlayerFSM : MonoBehaviour {
 		moveMarker.position = _hitInfo.point;
 		moveMarker.gameObject.SetActive(true);
 
-		float est = Vector3.Distance(moveMarker.position,transform.position) / moveSpeed + 2f; // 조금 넉넉한 예측시간부여
+		float est = Vector3.Distance(moveMarker.position,transform.position) / moveSpeed + 2f; // 조금 넉넉한 예측시간부여.
 		float t = 0f;
 
 		do

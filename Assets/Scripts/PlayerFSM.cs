@@ -21,7 +21,7 @@ public partial class PlayerFSM : MonoBehaviour {
 
 	public PlayerState currentState;
 	public int moveLayer = 9;
-	public float moveSpeed = 5f;
+	public float moveSpeed = 3f;
 	public float turnSpeed = 360f;
 	public AnimationClips[] animClips;
 
